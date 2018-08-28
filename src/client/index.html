@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Meta Properties -->
+    <meta charset="UTF-8">
+    <title>Agar.io</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body>
+    <div id="gameAreaWrapper">
+        <div id="status"><span class="title">Tabla de Posiciones</span></div>
+        <canvas tabindex="1" id="cvs"></canvas>
+    </div>
+
+    <div id="startMenuWrapper">
+        <div id="startMenu">
+            <p>Agar.udea</p>
+            <input type="text" tabindex="0" autofocus placeholder="Ingrese su nombre" id="playerNameInput" maxlength="25" />
+            <b class="input-error">Debe ingresar un nombre</b>
+            <br/>
+            <a><button id="startButton">Play</button></a>
+            <br />
+        </div>
+    </div>
+    <!-- JS -->
+    <script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
